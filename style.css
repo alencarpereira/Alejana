@@ -10,12 +10,12 @@ body {
     background: linear-gradient(to right, #ae2896, #509bf5);
 }
 div {
+    width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: space-between;
     flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin : 0 auto;
 }
 h1 {
     text-align: center;
@@ -35,7 +35,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin: 0 auto;
     color: #000;
     width: 200px;
     border: none;
@@ -45,13 +45,20 @@ p {
     font-weight: 700;
     font-size: 22px;
     margin-top: 50px;
+    transition: 0s.3s;
 }
 
+button:hover {
+    background: #eed2ed;
+    color: #000;
+    cursor: pointer;
+}
 .container1 img {
-    width: 400px;
+    width: 30%;
+    height: 300px;
+    margin: 0 auto;
 
-    height: 400px;
-    margin-top: 20px;
+ 
 
 }
 
